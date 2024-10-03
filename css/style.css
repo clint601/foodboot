@@ -20,6 +20,11 @@
 
     *{box-sizing:border-box}
 
+.carousel-img{
+    height: 45vh;
+}
+
+
     .body{
         margin: 0;
         padding: 0;
@@ -65,6 +70,16 @@
 
 .fs1-heading{
     color: var(--textColor);
+    font-weight: 700;
+}
+
+.fs3-heading{
+    font-size: 1rem;
+}
+
+.fs3-text, .fs3-list li{
+    color: #aaa;
+    
 }
 
 .icons{
@@ -76,10 +91,65 @@
         color: var(--yellow);
     }
 
+#carouselSection{
+    background-image: url('../images/brahmediting-CqMH8_p8H8M-unsplash.jpg');
+    width: 100%;
+    max-height: 860px;
+    position: relative;
+}
+
+.tint{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-height: 860px;
+    height: 45vh;
+    background-color: #000;
+    opacity:0.60
+}
+
     #footerSection1{
         padding: 32px 0;
         background-color: var(--bg2);
     }
+
+    #footerSection2{
+        padding: 32px 0;
+        color: var(--yellow);
+        background-color: var(--gray1);
+    }
+
+    #footerSection3{
+        padding: 32px 0;
+        background-color: var(--gray2);
+    }
+
+    #footerSection4{
+        background-color: var(--gray3);
+    }
+
+    #client1{
+        font-family: var(--client1);
+    }
+
+    #client2{
+        font-family: var(--client2);
+    }
+
+    #client3{
+        font-family: var(--client3);
+    }
+
+    #client4{
+        font-family: var(--client4);
+    }
+
+    #client5{
+        font-family: var(--client1);
+    }
+
+
 
     #figureSection{
         padding: 32px 0;
