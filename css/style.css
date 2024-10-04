@@ -32,6 +32,10 @@
         scroll-behavior: smooth;
     }
 
+    .banner-img{
+        height: 45vh;
+    }
+
     .blurb{
         color: var(--textColor);
         font-size: 1.7rem;
@@ -62,6 +66,30 @@
 .my-figure{
     background-color: #fff;
     box-shadow: 0 5px 5px #aaa;
+}
+
+.abt-figure{
+    background-color: #fff;
+    box-shadow: 0 5px 5px #aaa;
+    width: 70%;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.abt-heading{
+    font-size: 40px;
+    color: var(--red);
+}
+
+.abt-div{
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px #aaa;
+}
+
+#abtSection{
+    padding: 40px 0;
+    background-color: var(--bg1);
 }
 
 .small-text{
@@ -106,7 +134,7 @@
     max-height: 860px;
     height: 45vh;
     background-color: #000;
-    opacity:0.60
+    opacity: 0.60;
 }
 
     #footerSection1{
